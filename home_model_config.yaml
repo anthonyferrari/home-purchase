@@ -39,7 +39,7 @@ scenarios:
   box3_savings_deemed_return: 0.0144
   box3_tax_rate: 0.36
   capital_gains_tax_rate: 0.238
-  current_rent_monthly: 3600
+  current_rent_monthly: 2500
   down_payment_cash_source: idle
   eigenwoningforfait_rate: 0.0035
   ewf_tier_base: 4655
@@ -52,11 +52,11 @@ scenarios:
   - 5
   - 8
   home_insurance_annual: 600
-  idle_cash_ceiling: 275000.0
+  idle_cash_ceiling: 200000.0
   idle_cash_return: 0.015
   interest_rate: 0.0429
   investment_return_pct: 0.05
-  loan_amount: 1025000.0
+  loan_amount: 800000.0
   loan_term_years: 30
   maintenance_pct: 0.004
   makelaar_commission_pct: 0.0097
@@ -64,14 +64,14 @@ scenarios:
   mortgage_discharge_fee: 500
   mortgage_interest_deduction_rate: 0.3756
   mortgage_type: annuity
-  name: 275k down
-  net_income_monthly: 17602.33
-  net_income_monthly_after_ruling: 15066.32
+  name: 200k down
+  net_income_monthly: 12000.0
+  net_income_monthly_after_ruling: 10000.0
   notary_mortgage_deed: 650
   notary_transfer_deed: 1500
-  offer_price: 1300000.0
+  offer_price: 1000000.0
   ozb_rate: 0.000527
-  personal_contribution: 275000.0
+  personal_contribution: 200000.0
   rate_tiers: &id002
   - max_ltv: 0.65
     rate: 0.0427
@@ -82,7 +82,7 @@ scenarios:
   - max_ltv: 1.0
     rate: 0.0433
   reinvest_monthly_delta: true
-  rent_after_flat_monthly: 5000
+  rent_after_flat_monthly: 3500
   rent_flat_years: 2
   rent_growth_pct: 0.02
   sale_commission_pct: 0.015
@@ -101,7 +101,7 @@ scenarios:
   box3_savings_deemed_return: 0.0144
   box3_tax_rate: 0.36
   capital_gains_tax_rate: 0.238
-  current_rent_monthly: 3600
+  current_rent_monthly: 2500
   down_payment_cash_source: idle
   eigenwoningforfait_rate: 0.0035
   ewf_tier_base: 4655
@@ -114,11 +114,11 @@ scenarios:
   - 5
   - 8
   home_insurance_annual: 600
-  idle_cash_ceiling: 275000.0
+  idle_cash_ceiling: 200000.0
   idle_cash_return: 0.015
   interest_rate: 0.0433
   investment_return_pct: 0.05
-  loan_amount: 1300000.0
+  loan_amount: 1000000.0
   loan_term_years: 30
   maintenance_pct: 0.004
   makelaar_commission_pct: 0.0097
@@ -127,16 +127,16 @@ scenarios:
   mortgage_interest_deduction_rate: 0.3756
   mortgage_type: annuity
   name: 0 down
-  net_income_monthly: 17602.33
-  net_income_monthly_after_ruling: 15066.32
+  net_income_monthly: 12000.0
+  net_income_monthly_after_ruling: 10000.0
   notary_mortgage_deed: 650
   notary_transfer_deed: 1500
-  offer_price: 1300000.0
+  offer_price: 1000000.0
   ozb_rate: 0.000527
   personal_contribution: 0.0
   rate_tiers: *id002
   reinvest_monthly_delta: true
-  rent_after_flat_monthly: 5000
+  rent_after_flat_monthly: 3500
   rent_flat_years: 2
   rent_growth_pct: 0.02
   sale_commission_pct: 0.015

@@ -10,9 +10,9 @@ import yaml
 
 DEFAULTS = {
     # --- The deal ---
-    "offer_price": 1300000.0,
-    "personal_contribution": 275000.0,
-    "loan_amount": 1025000.0,
+    "offer_price": 1000000.0,
+    "personal_contribution": 200000.0,
+    "loan_amount": 800000.0,
     "interest_rate": 0.0429,
     "loan_term_years": 30,
     "mortgage_type": "annuity",   # "annuity" (flat payment) or "linear" (fixed principal, falling payment)
@@ -35,13 +35,13 @@ DEFAULTS = {
     "maintenance_pct": 0.004,       # % of home value/yr
 
     # --- Income ---
-    "net_income_monthly": 17602.33,
-    "net_income_monthly_after_ruling": 15066.32,
+    "net_income_monthly": 12000.00,
+    "net_income_monthly_after_ruling": 10000.00,
 
     # --- Rent counterfactual ---
-    "current_rent_monthly": 3600,
+    "current_rent_monthly": 2500,
     "rent_flat_years": 2,
-    "rent_after_flat_monthly": 5000,
+    "rent_after_flat_monthly": 3500,
     "rent_growth_pct": 0.02,   # simple assumption; NL free-sector cap is currently ~4.4%/yr (CPI+1pp, formula-based, through 2029) — see project notes
 
     # --- Dutch mortgage tax relief (2026) ---
@@ -67,7 +67,7 @@ DEFAULTS = {
     "box3_savings_deemed_return": 0.0144,
     "down_payment_cash_source": "idle",   # "idle" (savings-bucket cash) or "invested" (equities)
     "idle_cash_return": 0.015,
-    "idle_cash_ceiling": 275000.0,        # how much idle cash is actually available before you'd have to sell equities
+    "idle_cash_ceiling": 200000.0,        # how much idle cash is actually available before you'd have to sell equities
     "capital_gains_tax_rate": 0.238,      # est. US federal LTCG (20%) + NIIT (3.8%) on any equity sale beyond the ceiling
     "investment_return_pct": 0.05,
     "box3_on_portfolio": True,
