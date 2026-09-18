@@ -1,0 +1,148 @@
+scenarios:
+- affordability_acceptable_max: 0.3
+  affordability_ideal_max: 0.28
+  affordability_stretched_max: 0.33
+  appreciation_scenarios: &id001
+  - name: -5%/yr sustained
+    rate: -0.05
+    type: constant
+  - name: 2008-analog crash
+    path:
+    - -0.09
+    - -0.05
+    - -0.04
+    - -0.03
+    - -0.03
+    - 0.02
+    - 0.05
+    - 0.08
+    - 0.09
+    - 0.03
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0.05
+    path_tail_rate: 0.03
+    type: path
+  - name: -2%/yr sustained
+    rate: -0.02
+    type: constant
+  - name: 0%/yr (calibrated base case)
+    rate: 0.0
+    type: constant
+  - name: +2%/yr (conservative optimism)
+    rate: 0.02
+    type: constant
+  box3_deemed_return: 0.0604
+  box3_on_portfolio: true
+  box3_savings_deemed_return: 0.0144
+  box3_tax_rate: 0.36
+  capital_gains_tax_rate: 0.238
+  current_rent_monthly: 3600
+  down_payment_cash_source: idle
+  eigenwoningforfait_rate: 0.0035
+  ewf_tier_base: 4655
+  ewf_tier_rate: 0.0235
+  ewf_tier_threshold: 1330000
+  furnishing: 25000
+  ground_lease_annual: 0
+  hold_years_grid:
+  - 3
+  - 5
+  - 8
+  home_insurance_annual: 600
+  idle_cash_ceiling: 275000.0
+  idle_cash_return: 0.015
+  interest_rate: 0.0429
+  investment_return_pct: 0.05
+  loan_amount: 1025000.0
+  loan_term_years: 30
+  maintenance_pct: 0.004
+  makelaar_commission_pct: 0.0097
+  mortgage_advisor_fee: 8000
+  mortgage_discharge_fee: 500
+  mortgage_interest_deduction_rate: 0.3756
+  mortgage_type: annuity
+  name: 275k down
+  net_income_monthly: 17602.33
+  net_income_monthly_after_ruling: 15066.32
+  notary_mortgage_deed: 650
+  notary_transfer_deed: 1500
+  offer_price: 1300000.0
+  ozb_rate: 0.000527
+  personal_contribution: 275000.0
+  rate_tiers: &id002
+  - max_ltv: 0.65
+    rate: 0.0427
+  - max_ltv: 0.85
+    rate: 0.0429
+  - max_ltv: 0.9
+    rate: 0.0431
+  - max_ltv: 1.0
+    rate: 0.0433
+  reinvest_monthly_delta: true
+  rent_after_flat_monthly: 5000
+  rent_flat_years: 2
+  rent_growth_pct: 0.02
+  sale_commission_pct: 0.015
+  stress_rate_bump: 0.02
+  structural_survey: 1000
+  taxatierapport: 850
+  transfer_tax_pct: 0.02
+  vve_monthly: 260.0
+  woz_value: null
+- affordability_acceptable_max: 0.3
+  affordability_ideal_max: 0.28
+  affordability_stretched_max: 0.33
+  appreciation_scenarios: *id001
+  box3_deemed_return: 0.0604
+  box3_on_portfolio: true
+  box3_savings_deemed_return: 0.0144
+  box3_tax_rate: 0.36
+  capital_gains_tax_rate: 0.238
+  current_rent_monthly: 3600
+  down_payment_cash_source: idle
+  eigenwoningforfait_rate: 0.0035
+  ewf_tier_base: 4655
+  ewf_tier_rate: 0.0235
+  ewf_tier_threshold: 1330000
+  furnishing: 25000
+  ground_lease_annual: 0
+  hold_years_grid:
+  - 3
+  - 5
+  - 8
+  home_insurance_annual: 600
+  idle_cash_ceiling: 275000.0
+  idle_cash_return: 0.015
+  interest_rate: 0.0433
+  investment_return_pct: 0.05
+  loan_amount: 1300000.0
+  loan_term_years: 30
+  maintenance_pct: 0.004
+  makelaar_commission_pct: 0.0097
+  mortgage_advisor_fee: 8000
+  mortgage_discharge_fee: 500
+  mortgage_interest_deduction_rate: 0.3756
+  mortgage_type: annuity
+  name: 0 down
+  net_income_monthly: 17602.33
+  net_income_monthly_after_ruling: 15066.32
+  notary_mortgage_deed: 650
+  notary_transfer_deed: 1500
+  offer_price: 1300000.0
+  ozb_rate: 0.000527
+  personal_contribution: 0.0
+  rate_tiers: *id002
+  reinvest_monthly_delta: true
+  rent_after_flat_monthly: 5000
+  rent_flat_years: 2
+  rent_growth_pct: 0.02
+  sale_commission_pct: 0.015
+  stress_rate_bump: 0.02
+  structural_survey: 1000
+  taxatierapport: 850
+  transfer_tax_pct: 0.02
+  vve_monthly: 260.0
+  woz_value: null
